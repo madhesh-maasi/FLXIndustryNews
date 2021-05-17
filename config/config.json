@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "flxindustrynews-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/flxindustrynews/FlxindustrynewsWebPart.js",
+          "manifest": "./src/webparts/flxindustrynews/FlxindustrynewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FlxindustrynewsWebPartStrings": "lib/webparts/flxindustrynews/loc/{locale}.js"
+  }
+}
