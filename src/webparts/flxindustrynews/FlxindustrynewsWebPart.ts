@@ -43,7 +43,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       <div class="container industry-news-section  p-0 d-flex">
       <div class="news border">
       <h5 class="bg-secondary px-4 py-2 text-white"> Industry News</h5>
-      <div class="add-news px-4 py-2 border-bottom"><a class="text-info">+ Add news</a></div>
+      <!--<div class="add-news px-4 py-2 border-bottom"><a class="text-info">+ Add news</a></div>-->
       <div class="news-list"> 
       <ul class="list-unstyled m-0" id="industrynews">
 
@@ -137,9 +137,9 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       <div class="industry-sec-qlinks">  
       
       <div class="q-link mx-2 border text-center p-2"> 
-    <img class="q-link-img m-2" src="https://media-exp1.licdn.com/dms/image/C5603AQG1sCX4C8uhCg/profile-displayphoto-shrink_800_800/0/1615561085905?e=1626307200&v=beta&t=SbQf_3OwRf5JSfMqg9fXLYvIwcfYWOLKl_lmJGr4qSE" alt="img"/>
+    <div class="q-link-img m-2"></div>
     <div class="q-link-title">FLX Intelligence</div> 
-    <div class="q-link-sub-title">Asset manager & FLX TV</div> 
+    <div class="q-link-sub-title">Asset Manager Insights & FLX TV</div> 
     </div>
       
       </div>
