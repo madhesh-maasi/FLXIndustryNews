@@ -75,7 +75,8 @@
   color: #011e41;
 }
 .q-link-img {
-  background: url(../images/Letter-Stencils-X.jpg);
+  background: url(../images/Letter-Stencils.png);
+  /* background: url(../images/Letter-Stencils-X.jpg); */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
