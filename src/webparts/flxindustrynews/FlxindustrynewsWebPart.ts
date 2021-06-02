@@ -149,7 +149,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
 const parser = new Parser()    
 
 const fetchPosts = async () => {
-  const RSS_URL = "https://cors-anywhere.herokuapp.com/https://www.etf.com/home.feed";
+  const RSS_URL = "https://api.allorigins.win/raw?url=https://www.etf.com/home.feed";
   const feed = await parser.parseURL(RSS_URL)
   //console.log(feed) 
   allitem=feed.items;
