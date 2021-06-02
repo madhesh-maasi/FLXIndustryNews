@@ -34,12 +34,16 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
     return super.onInit().then(_ => {
       sp.setup({
         spfxContext: this.context
-      });  
+      });       
     }); 
   } 
-  public render(): void {   
+  public render(): void {     
     siteURL = this.context.pageContext.web.absoluteUrl;
     this.domElement.innerHTML = `
+    <div class="headermainnews p-1">
+      <h5 class=" mx-3 headindustry">     
+      Industry</h5>
+      </div>
       <div class="container industry-news-section  p-0 d-flex">
       <div class="news border">
       <h5 class="bg-secondary px-4 py-2 text-white"> Industry News</h5>
@@ -104,7 +108,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       </h6>   
       <div class="time-ago"> 
       Market watch . 19 minutes ago    
-      </div>
+      </div>   
       <p class="news-subtitle m-0"> 
       Prison stocks are falling Tuesday as President Joe Biden 
       is expected to sign an executive order in the...
@@ -136,7 +140,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       </div>
       <div class="industry-sec-qlinks">  
       
-      <div class="q-link mx-2 border text-center p-2"> 
+      <div class="q-link mx-4 border text-center p-2"> 
     <div class="q-link-img m-2"></div>
     <div class="q-link-title">FLX Intelligence</div> 
     <div class="q-link-sub-title">Asset Manager Insights & FLX TV</div> 

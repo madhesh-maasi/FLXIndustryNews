@@ -101,3 +101,9 @@
 .industry-sec-qlinks .q-link{
   background-color:white;   
 }
+.headindustry{
+  /* margin-left: 1.2rem!important; */
+  font-size: 1.25rem;
+  color: #011e41;
+  font-weight: 500;
+}  
