@@ -181,10 +181,10 @@ fetchPosts();
             }
           ]
         }
-      ]
+      ]          
     };
   }
-}
+}   
 
 function getindustrynews(){
   var htmlforindustrynews="";

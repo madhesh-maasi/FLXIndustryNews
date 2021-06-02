@@ -41,8 +41,9 @@
   margin-left: auto;
 }
 .news-list {
-  max-height: 30rem;
-  overflow-y: auto;
+  max-height: 21.7rem;
+    min-height: 21.7rem;
+    overflow-y: auto;
   scrollbar-color: #727272 #f5f5f5;
   scrollbar-width: 6px;
 }
@@ -96,4 +97,7 @@
 .q-link-sub-title {
   font-size: 0.8rem;
   color: #011e41;
+}
+.industry-sec-qlinks .q-link{
+  background-color:white;   
 }
