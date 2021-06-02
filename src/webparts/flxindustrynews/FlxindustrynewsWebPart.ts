@@ -206,26 +206,26 @@ function getindustrynews(){
     var days = Math.floor(interval / msecPerDay );
     interval = interval - (days * msecPerDay );
     
-    var weeks = 0;
-    while(days >= 7)
-    {
-    days = days - 7;
-    weeks = weeks + 1;
-    }
+    // var weeks = 0;
+    // while(days >= 7)
+    // {
+    // days = days - 7;
+    // weeks = weeks + 1;
+    // }
     
-    var months = 0;
-    while(weeks >= 4)
-    {
-    weeks = weeks - 4;
-    months = months + 1;
-    }
+    // var months = 0;
+    // while(weeks >= 4)
+    // {
+    // weeks = weeks - 4;
+    // months = months + 1;
+    // }
 
-    var years = 0;
-    while(months >= 12)
-    {
-      months = months - 12;
-      years = years + 1;
-    }
+    // var years = 0;
+    // while(months >= 12)
+    // {
+    //   months = months - 12;
+    //   years = years + 1;
+    // }
     
     
     // Calculate the hours, minutes, and seconds.
@@ -255,6 +255,11 @@ function getindustrynews(){
     else
     diffDT=minutes+" minute ago";
    }
+   console.log(allitem[i].pubDate);
+   console.log(days);
+   console.log(hours);
+   console.log(minutes);
+   
 
     htmlforindustrynews+=`<li class="py-3 px-4 border-bottom d-flex"> 
     <div class="news-section">
