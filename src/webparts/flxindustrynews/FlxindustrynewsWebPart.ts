@@ -36,13 +36,13 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
         spfxContext: this.context
       });       
     }); 
-  } 
+  }    
   public render(): void {     
     siteURL = this.context.pageContext.web.absoluteUrl;
     this.domElement.innerHTML = `
-    <div class="headermainnews ">
+    <div class="headermainnews ">   
       <h5 class="headindustry">     
-      Industry</h5>
+      Industry</h5>  
       </div>
       <div class="container industry-news-section  p-0 d-flex">
       <div class="news border">
@@ -51,7 +51,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       <div class="news-list"> 
       <ul class="list-unstyled m-0" id="industrynews">
 
-      
+         
 
       <!--<li class="py-3 px-4 border-bottom d-flex"> 
       <div class="news-section">

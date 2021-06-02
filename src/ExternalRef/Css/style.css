@@ -41,8 +41,8 @@
   margin-left: auto;
 }
 .news-list {
-  max-height: 21.7rem;
-    min-height: 21.7rem;
+  max-height: 29rem;
+    min-height: 29rem;
     overflow-y: auto;
   scrollbar-color: #727272 #f5f5f5;
   scrollbar-width: 6px;
