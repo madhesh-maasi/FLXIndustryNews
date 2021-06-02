@@ -40,8 +40,8 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
   public render(): void {     
     siteURL = this.context.pageContext.web.absoluteUrl;
     this.domElement.innerHTML = `
-    <div class="headermainnews p-1">
-      <h5 class=" mx-3 headindustry">     
+    <div class="headermainnews ">
+      <h5 class="headindustry">     
       Industry</h5>
       </div>
       <div class="container industry-news-section  p-0 d-flex">
@@ -108,7 +108,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       </h6>   
       <div class="time-ago"> 
       Market watch . 19 minutes ago    
-      </div>   
+      </div>     
       <p class="news-subtitle m-0"> 
       Prison stocks are falling Tuesday as President Joe Biden 
       is expected to sign an executive order in the...
