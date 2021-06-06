@@ -35,11 +35,15 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       sp.setup({
         spfxContext: this.context
       });       
-    }); 
-  }    
+    });          
+  }         
   public render(): void {     
     siteURL = this.context.pageContext.web.absoluteUrl;
-    this.domElement.innerHTML = `
+    this.domElement.innerHTML = ` 
+    <div class="loader-section" style="display:none"> 
+    <div class="loader"></div>  
+    </div></div>
+    <div class="right-border">
     <div class="headermainnews ">   
       <h5 class="headindustry">     
       Industry</h5>  
@@ -149,6 +153,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
       </div>
 
       </div>
+      </div>
     `;
 const parser = new Parser()    
 
@@ -191,6 +196,7 @@ fetchPosts();
 }   
 
 function getindustrynews(){
+  $(".loader-section").show();
   var htmlforindustrynews="";
   var diffDT="";
   for(var i=0;i<allitem.length;i++){
@@ -283,4 +289,5 @@ function getindustrynews(){
   }
   $("#industrynews").html("");
   $("#industrynews").html(htmlforindustrynews);
+  $(".loader-section").hide();
 }
