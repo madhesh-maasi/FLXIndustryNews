@@ -42,7 +42,7 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
     this.domElement.innerHTML = ` 
     <div class="loader-section" style="display:none"> 
     <div class="loader"></div>  
-    </div></div>
+    </div>
     <div class="right-border">
     <div class="headermainnews ">   
       <h5 class="headindustry">     
