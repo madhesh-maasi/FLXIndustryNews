@@ -205,7 +205,6 @@ export default class FlxindustrynewsWebPart extends BaseClientSideWebPart<IFlxin
 }
 
 async function getindustrynews() {
-  $(".loader-section").show();
 
   var bag = [];
   let listLocation = await sp.web.getList(listUrl + "Badging").items.get();
@@ -326,5 +325,4 @@ async function getindustrynews() {
 
     }
   }
-  $(".loader-section").hide();
 }
