@@ -288,15 +288,19 @@ async function getindustrynews() {
 
     htmlforindustrynews += `<li class="py-3 px-4 border-bottom d-flex"> 
     <div class="news-section">
+    <a href=${allitem[i].link} target="_blank">
     <h6 class="news-title">
     ${allitem[i].title}<span class="newfilein newfileins${i}">Latest News</span>
-    </h6>     
+    </h6>
+    </a>     
     <div class="time-ago"> 
     ${allitem[i].creator} . ${diffDT}      
     </div>
+    <a href=${allitem[i].link} target="_blank">
     <p class="news-subtitle m-0">  
     ${allitem[i].contentSnippet}
     </p>
+    </a>
     </div>
     <div class="news-date time-ago">  
     ${moment(allitem[i].pubDate).format("MMM YYYY")}</div>
